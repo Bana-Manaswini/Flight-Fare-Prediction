@@ -6,20 +6,30 @@ To build a machine learning model that predicts flight fares given various input
 
 📁 Dataset
 File: Flight_Fare.xlsx
+
 Target Variable: Price
 
 Features Used:
+
 Airline
+
 Source and Destination
+
 Route
+
 Total Stops
+
 Duration
+
 Date of Journey
+
 Departure and Arrival Times
 
 📊 Exploratory Data Analysis (EDA)
 Handled null values and cleaned inconsistent duration formats.
+
 Converted categorical variables using label encoding and one-hot encoding.
+
 Created new features like journey day, month, and duration in minutes.
 
 🧠 Machine Learning Models Used
@@ -32,8 +42,11 @@ Random Forest	~0.85	~1600
 
 🛠 Tech Stack
 Language: Python
+
 Notebook: Jupyter Notebook
+
 Libraries:
+
 Pandas, NumPy (data manipulation)
 
 Seaborn, Matplotlib (visualization)
